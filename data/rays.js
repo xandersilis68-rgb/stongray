@@ -1,0 +1,1 @@
+const RAY_TYPES=[{name:'Blue Ray',size:30,color:'blue',personality:'shy'},{name:'Red Ray',size:35,color:'red',personality:'aggressive'}];

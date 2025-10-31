@@ -1,0 +1,1 @@
+const DECORATIONS=[{name:'Cave',width:100,height:50},{name:'Log',width:80,height:30}];

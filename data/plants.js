@@ -1,0 +1,1 @@
+const PLANT_TYPES=[{name:'Amazon Sword',growthRate:0.05},{name:'Java Fern',growthRate:0.03}];
