@@ -1,0 +1,1 @@
+const CONFIG={canvasWidth:800,canvasHeight:600,maxRays:5,maxPlants:10};
