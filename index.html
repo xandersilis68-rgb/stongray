@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freshwater Stingray Breeder Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game-container">
+    <header>
+        <h1>Freshwater Stingray Breeder Simulator</h1>
+        <div id="tank-stats">
+            <p>Temperature: <span id="temp">25°C</span></p>
+            <p>pH: <span id="ph">7.0</span></p>
+            <p>Oxygen: <span id="oxygen">8mg/L</span></p>
+            <p>Rays: <span id="ray-count">0</span></p>
+            <p>Plants: <span id="plant-count">0</span></p>
+        </div>
+    </header>
+
+    <main>
+        <canvas id="tank-canvas" width="900" height="500"></canvas>
+        <aside id="controls">
+            <button id="add-ray">Add Ray</button>
+            <button id="feed-ray">Feed Rays</button>
+            <button id="add-plant">Add Plant</button>
+            <button id="clean-tank">Clean Tank</button>
+            <button id="save-game">Save Game</button>
+            <button id="load-game">Load Game</button>
+            <h3>Achievements</h3>
+            <ul id="achievements"></ul>
+        </aside>
+    </main>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
